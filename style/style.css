@@ -12,13 +12,13 @@
     padding: 1%;
 }
 
-#TitleHold
+#NavTitle
 {
-    transition: all 0.5s ease;
-    width:fit-content;
+  transition: all;
 }
 
-.TitleLetter
+#NavTitle:hover
 {
-  display: inline;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
 }
